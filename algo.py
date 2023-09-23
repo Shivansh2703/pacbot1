@@ -25,4 +25,5 @@ def get_next_coordinate(grid, location):
         - If the next coordinate is invalid, return None.
     """
     
+    
     return location
