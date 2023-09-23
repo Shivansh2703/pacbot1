@@ -42,6 +42,7 @@ while running:
     elapsed_time = (current_time - start_time) // 1000 
 
     current_x, current_y = pacman_x, pacman_y
+    # init()
     path = get_next_coordinate(grid, (current_x, current_y))
     
     if path is None or len(path) == 0 or path[0] is None:
